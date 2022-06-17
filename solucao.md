@@ -1,4 +1,4 @@
-# SolutionSprint5
+# Solution Sprint 5
 
 Repositório criado para a solution sprint 5 do curso de Engenharia de Dados. 
 

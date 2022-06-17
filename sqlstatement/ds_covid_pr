@@ -1,0 +1,10 @@
+SELECT
+data_notificacao,
+CAST (ocupacao_CovidUti AS INT64) as ocupacao_CovidUti,
+CAST (ocupacao_CovidCli AS INT64) as ocupacao_CovidCli,
+CAST (saida_ConfirmadaObitos AS INT64) as saida_ConfirmadaObitos,
+CAST (saida_ConfirmadaAltas AS INT64) as saida_ConfirmadaAltas,
+estado,	
+municipio
+FROM `fiap-challenge-5.resultado_final.ds_covid` 
+WHERE estado = 'Paraná';
